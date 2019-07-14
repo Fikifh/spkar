@@ -190,8 +190,18 @@
                                     
                 </tbody>
               </table> -->
-              <h3><?php print_r($kesimpulan) ?> %</h3>
-              <h3>Dengan Persentase Kemungkinan Sebesar : <?php print_r($hasil) ?> %</h3>
+              <h3><?php 
+                    if($cek == 0){
+                        echo "Silahkan Pilih Pertanyaan dan Kriteria !";
+                    }else
+                        if($dipilih != $jumlahMd){
+                            echo "Kriteria yang diisi harus sesuai dengan Pertanyaan yang dipilih !";
+                        }else
+                            {
+                                print_r($kesimpulan);                    
+
+                         ?> %</h3>
+                      <h3>Dengan Persentase Kemungkinan Sebesar : <?php print_r($hasil); } ?> %</h3>
             </div>
                             </div>
                         </div>

@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 class Cari_cf {
   /**
    * function utama algoritma certain factor
@@ -61,8 +62,8 @@ class Cari_cf {
   
 ////////////////////////////////////////////////////// 
 }
-//  $md = array(0.2, 0.2);
-//  $mb = array(0.6, 0.6);
+//  $md = array(0.4, 0.4);
+//  $mb = array(0.6, 0.8);
 //  $cari  = new Cari_cf(); // nama class dari file Cari_cf.php
 // //  $hasil = $cari->hitungCf($mb, $md); // menghitung nilai CF dengan fungsi hitung    
 // $hasil = $cari->hitungCf($mb, $md); // menghitung nilai CF dengan fungsi hitung    
